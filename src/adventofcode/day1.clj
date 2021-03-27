@@ -19,7 +19,7 @@
         ]
         (if (empty? filt)
           (if (empty? resten) 0 (day1-question1 resten value))
-          (* x (first resten))
+          (println "product" (* x (first resten)))
     )))
 
 (day1-question1 test-list, 2020)
