@@ -9,6 +9,9 @@
 675
 1456])
 
+(def real-list (core/read-lines "resources/day1" :as-int))
+
+(println (type (first real-list)))
 
 (defn day1-question1 [xs value]
   (let [
@@ -22,7 +25,7 @@
           (println "product" (* x (first resten)))
     )))
 
-(day1-question1 test-list, 2020)
+(day1-question1 real-list 2020)
 
 
 (defn inner-func [xs value]
