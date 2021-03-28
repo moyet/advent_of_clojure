@@ -25,7 +25,7 @@
           (println "product" (* x (first resten)))
     )))
 
-(day1-question1 real-list 2020)
+;(day1-question1 real-list 2020)
 
 
 (defn inner-func [xs value]
@@ -42,7 +42,6 @@
     )))
 
 
-
 (defn day1-question2 [xs value]
   (let [
         [x & resten] xs
@@ -57,4 +56,4 @@
   )
 )
 
-(day1-question2 test-list 2020)
+;(day1-question2 test-list 2020)
